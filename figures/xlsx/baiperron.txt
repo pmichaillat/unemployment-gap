@@ -1,0 +1,252 @@
+The option chosen are:
+h = 41
+eps1 = 0.15
+hetdat = 1
+hetvar = 1
+hetomega = 1
+hetq = 1
+robust = 1 (prewhit =0)
+hetvar = 1
+The maximum number of breaks is: 5
+***********************************************************
+Output from the global optimization
+***********************************************************
+The model with 1breaks has SSR : 8.4683
+The dates of the breaks are: 55
+The model with 2breaks has SSR : 3.8768
+The dates of the breaks are: 57  157
+The model with 3breaks has SSR : 2.9017
+The dates of the breaks are: 41   84  156
+The model with 4breaks has SSR : 2.2281
+The dates of the breaks are: 41   84  157  235
+The model with 5breaks has SSR : 1.6466
+The dates of the breaks are: 41   84  153  194  235
+************************************
+Output from the testing procedures
+************************************
+a) supF tests against a fixed number of breaks
+-----------------------------------------
+The supF test for 0 versus 1breaks (scaled by q) is: 40.7357
+The supF test for 0 versus 2breaks (scaled by q) is: 203.9838
+The supF test for 0 versus 3breaks (scaled by q) is: 186.2683
+The supF test for 0 versus 4breaks (scaled by q) is: 123.7261
+The supF test for 0 versus 5breaks (scaled by q) is: 249.5525
+------------------------------------------------
+The critical values at the 10% level are (for k=1 to 5): 9.81        8.63        7.54        6.51        5.27
+The critical values at the 5% level are (for k=1 to 5): 11.47         9.75         8.36         7.19         5.85
+The critical values at the 2.5% level are (for k=1 to 5): 12.96        10.75         9.15         7.81         6.38
+The critical values at the 1% level are (for k=1 to 5): 15.37        12.15        10.27         8.65            7
+---------------------------------------------------------
+b) Dmax tests against an unknown number of breaks
+---------------------------------------------------------
+The UDmax test is: 249.5525
+(the critical value at the 10% level is: 10.16)
+(the critical value at the 5% level is: 11.7)
+(the critical value at the 2.5% level is: 13.18)
+(the critical value at the 1% level is: 15.41)
+****************************************************************
+--------------------------------------
+The WDmax test at the 10% level is: 249.5525
+--------------------------------------
+The WDmax test at the 5% level is: 249.5525
+--------------------------------------
+The WDmax test at the 2.5% level is: 249.5525
+--------------------------------------
+The WDmax test at the 1% level is: 249.5525
+*****************************************************************
+Output from the application of Information criteria
+---------------------------------------------------------------------
+With 0 breaks: 
+BIC= -3.0717
+LWZ= -3.0644
+With 1 breaks: 
+BIC= -3.423
+LWZ= -3.3438
+With 2 breaks: 
+BIC= -4.1432
+LWZ= -3.992
+With 3 breaks: 
+BIC= -4.3718
+LWZ= -4.1484
+With 4 breaks: 
+BIC= -4.5749
+LWZ= -4.2792
+With 5 breaks: 
+BIC= -4.8162
+LWZ= -4.4481
+The number of breaks chosen by BIC is : 5
+The number of breaks chosen by LWZ is : 5
+******************************************************
+Output from the estimation of the model selected by BIC
+------------------------------------------------------------
+ 
+Number of observations 276
+Number of regressors 12
+  Columns 1 through 2
+
+    {0×0 char}    {' Estimator'}
+    {'C(1)'  }    {[   -6.2677]}
+    {'C(2)'  }    {[   -0.8437]}
+    {'C(3)'  }    {[   -6.5042]}
+    {'C(4)'  }    {[   -1.0182]}
+    {'C(5)'  }    {[   -5.5773]}
+    {'C(6)'  }    {[   -0.8376]}
+    {'C(7)'  }    {[   -6.2017]}
+    {'C(8)'  }    {[   -0.9390]}
+    {'C(9)'  }    {[   -6.5666]}
+    {'C(10)' }    {[   -0.9985]}
+    {'C(11)' }    {[   -5.8499]}
+    {'C(12)' }    {[   -0.8364]}
+
+  Columns 3 through 4
+
+    {'SE'    }    {'SE_robust'}
+    {[0.1341]}    {[   0.1665]}
+    {[0.0428]}    {[   0.0529]}
+    {[0.1719]}    {[   0.1598]}
+    {[0.0560]}    {[   0.0494]}
+    {[0.1302]}    {[   0.1654]}
+    {[0.0483]}    {[   0.0622]}
+    {[0.2120]}    {[   0.1596]}
+    {[0.0740]}    {[   0.0568]}
+    {[0.1754]}    {[   0.1137]}
+    {[0.0594]}    {[   0.0385]}
+    {[0.1035]}    {[   0.1054]}
+    {[0.0364]}    {[   0.0356]}
+
+  Columns 5 through 6
+
+    {'t-stat'  }    {'p-val'}
+    {[-37.6408]}    {[    0]}
+    {[-15.9588]}    {[    0]}
+    {[-40.7074]}    {[    0]}
+    {[-20.6097]}    {[    0]}
+    {[-33.7160]}    {[    0]}
+    {[-13.4622]}    {[    0]}
+    {[-38.8695]}    {[    0]}
+    {[-16.5216]}    {[    0]}
+    {[-57.7434]}    {[    0]}
+    {[-25.9543]}    {[    0]}
+    {[-55.5256]}    {[    0]}
+    {[-23.4759]}    {[    0]}
+
+R2:    0.9083
+Variance of s2:    0.0062609
+Log likelihood: 315.1643
+D-W statistics:      0.47605
+----------------------------------------------------
+Corrected standard errors for the coefficients
+----------------------------------------------------
+The corrected standard errors for coefficient 1 is: 0.21775
+The corrected standard errors for coefficient 2 is: 0.066707
+The corrected standard errors for coefficient 3 is: 0.22863
+The corrected standard errors for coefficient 4 is: 0.068795
+The corrected standard errors for coefficient 5 is: 0.27865
+The corrected standard errors for coefficient 6 is: 0.11244
+The corrected standard errors for coefficient 7 is: 0.4098
+The corrected standard errors for coefficient 8 is: 0.14772
+The corrected standard errors for coefficient 9 is: 0.172
+The corrected standard errors for coefficient 10 is: 0.057224
+The corrected standard errors for coefficient 11 is: 0.17044
+The corrected standard errors for coefficient 12 is: 0.056694
+--------------------------------------------------------
+Confidence intervals for the break dates
+--------------------------------------------------------
+The 95% C.I. for the 1th break is: 40 48
+The 90% C.I. for the 1th break is: 40 48
+The 95% C.I. for the 2th break is: 80 89
+The 90% C.I. for the 2th break is: 81 89
+The 95% C.I. for the 3th break is: 152 160
+The 90% C.I. for the 3th break is: 153 159
+The 95% C.I. for the 4th break is: 193 200
+The 90% C.I. for the 4th break is: 194 199
+The 95% C.I. for the 5th break is: 232 237
+The 90% C.I. for the 5th break is: 233 236
+***********************************************************
+******************************************************
+Output from the estimation of the model selected by LWZ
+--------------------------------------------------------------
+ 
+Number of observations 276
+Number of regressors 12
+  Columns 1 through 2
+
+    {0×0 char}    {' Estimator'}
+    {'C(1)'  }    {[   -6.2677]}
+    {'C(2)'  }    {[   -0.8437]}
+    {'C(3)'  }    {[   -6.5042]}
+    {'C(4)'  }    {[   -1.0182]}
+    {'C(5)'  }    {[   -5.5773]}
+    {'C(6)'  }    {[   -0.8376]}
+    {'C(7)'  }    {[   -6.2017]}
+    {'C(8)'  }    {[   -0.9390]}
+    {'C(9)'  }    {[   -6.5666]}
+    {'C(10)' }    {[   -0.9985]}
+    {'C(11)' }    {[   -5.8499]}
+    {'C(12)' }    {[   -0.8364]}
+
+  Columns 3 through 4
+
+    {'SE'    }    {'SE_robust'}
+    {[0.1341]}    {[   0.1665]}
+    {[0.0428]}    {[   0.0529]}
+    {[0.1719]}    {[   0.1598]}
+    {[0.0560]}    {[   0.0494]}
+    {[0.1302]}    {[   0.1654]}
+    {[0.0483]}    {[   0.0622]}
+    {[0.2120]}    {[   0.1596]}
+    {[0.0740]}    {[   0.0568]}
+    {[0.1754]}    {[   0.1137]}
+    {[0.0594]}    {[   0.0385]}
+    {[0.1035]}    {[   0.1054]}
+    {[0.0364]}    {[   0.0356]}
+
+  Columns 5 through 6
+
+    {'t-stat'  }    {'p-val'}
+    {[-37.6408]}    {[    0]}
+    {[-15.9588]}    {[    0]}
+    {[-40.7074]}    {[    0]}
+    {[-20.6097]}    {[    0]}
+    {[-33.7160]}    {[    0]}
+    {[-13.4622]}    {[    0]}
+    {[-38.8695]}    {[    0]}
+    {[-16.5216]}    {[    0]}
+    {[-57.7434]}    {[    0]}
+    {[-25.9543]}    {[    0]}
+    {[-55.5256]}    {[    0]}
+    {[-23.4759]}    {[    0]}
+
+R2:    0.9083
+Variance of s2:    0.0062609
+Log likelihood: 315.1643
+D-W statistics:      0.47605
+----------------------------------------------------
+Corrected standard errors for the coefficients
+----------------------------------------------------
+The corrected standard errors for coefficient 1 is: 0.21775
+The corrected standard errors for coefficient 2 is: 0.066707
+The corrected standard errors for coefficient 3 is: 0.22863
+The corrected standard errors for coefficient 4 is: 0.068795
+The corrected standard errors for coefficient 5 is: 0.27865
+The corrected standard errors for coefficient 6 is: 0.11244
+The corrected standard errors for coefficient 7 is: 0.4098
+The corrected standard errors for coefficient 8 is: 0.14772
+The corrected standard errors for coefficient 9 is: 0.172
+The corrected standard errors for coefficient 10 is: 0.057224
+The corrected standard errors for coefficient 11 is: 0.17044
+The corrected standard errors for coefficient 12 is: 0.056694
+--------------------------------------------------------
+Confidence intervals for the break dates
+--------------------------------------------------------
+The 95% C.I. for the 1th break is: 40 48
+The 90% C.I. for the 1th break is: 40 48
+The 95% C.I. for the 2th break is: 80 89
+The 90% C.I. for the 2th break is: 81 89
+The 95% C.I. for the 3th break is: 152 160
+The 90% C.I. for the 3th break is: 153 159
+The 95% C.I. for the 4th break is: 193 200
+The 90% C.I. for the 4th break is: 194 199
+The 95% C.I. for the 5th break is: 232 237
+The 90% C.I. for the 5th break is: 233 236
+***********************************************************
