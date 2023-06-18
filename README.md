@@ -171,4 +171,7 @@ The content of this repository is licensed under the terms of the MIT License.
 
 ## Related code
 
-The [Macroeconomic Model Database](https://www.macromodelbase.com) has developed [MATLAB and Dynare code](https://github.com/IMFS-MMB/mmb-rep/tree/master/NK_MI14) to reproduce Figure 2 and Figure 3.
++ [Python version of this code](https://github.com/smxzehvb/unemployment-gap/tree/main/python) – All the paper's results are presented in Jupyter Notebooks.
+
+
+
