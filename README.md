@@ -168,3 +168,7 @@ The results were obtained on a Mac running macOS BigSur 11.6 with Matlab R2021a 
 ## License
 
 The content of this repository is licensed under the terms of the MIT License.
+
+## Related code
+
+The [Macroeconomic Model Database](https://www.macromodelbase.com) has developed [MATLAB and Dynare code](https://github.com/IMFS-MMB/mmb-rep/tree/master/NK_MI14) to reproduce Figure 2 and Figure 3.
