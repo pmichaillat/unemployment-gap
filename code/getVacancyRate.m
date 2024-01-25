@@ -30,13 +30,13 @@
 function v = getVacancyRate()
 
 % Read monthly vacancy rate for 1951--2000
-v1951 = readmatrix('data.xlsx', 'Sheet', 'Monthly data', 'Range', 'H3:H602')./100;
+v1951 = readmatrix('../data/data.xlsx', 'Sheet', 'Monthly data', 'Range', 'H3:H602')./100;
 
 % Read monthly vacancy level for 2001--2019
-v2001 = readmatrix('data.xlsx', 'Sheet', 'Monthly data', 'Range', 'G603:G830');
+v2001 = readmatrix('../data/data.xlsx', 'Sheet', 'Monthly data', 'Range', 'G603:G830');
 
 % Read monthly labor-force level for 2001--2019
-laborforce = readmatrix('data.xlsx', 'Sheet', 'Monthly data', 'Range', 'F603:F830');
+laborforce = readmatrix('../data/data.xlsx', 'Sheet', 'Monthly data', 'Range', 'F603:F830');
 
 % Compute vacancy rate for 2001--2019
 v2001 = v2001 ./ laborforce;

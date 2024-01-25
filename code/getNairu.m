@@ -28,7 +28,7 @@
 function [uNairu, timelineNairu] = getNairu()
 
 % Read NAIRU
-uNairu = readmatrix('data.xlsx', 'Sheet', 'Quarterly data', 'Range',' F39:F273')./100;
+uNairu = readmatrix('../data/data.xlsx', 'Sheet', 'Quarterly data', 'Range',' F39:F273')./100;
 
 % Produce timeline for 1960Q1--2018Q3
 timelineNairu = [1960:0.25:2018.5]';

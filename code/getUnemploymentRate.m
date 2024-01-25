@@ -22,7 +22,7 @@
 function u = getUnemploymentRate()
 
 % Input monthly unemployment rate
-u = readmatrix('data.xlsx', 'Sheet', 'Monthly data', 'Range',' C3:C830')./100;
+u = readmatrix('../data/data.xlsx', 'Sheet', 'Monthly data', 'Range',' C3:C830')./100;
 
 % Take quarterly average of monthly series
 u = monthlyToQuarterly(u);

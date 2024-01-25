@@ -28,10 +28,10 @@ function f = measureJobFinding(frequency)
 %% --- Get data ---
 
 % Read monthly unemployment level
-u = readmatrix('data.xlsx', 'Sheet', 'Monthly data', 'Range',' D3:D831');
+u = readmatrix('../data/data.xlsx', 'Sheet', 'Monthly data', 'Range',' D3:D831');
 
 % Read monthly short-term unemployment level
-uShortTerm = readmatrix('data.xlsx', 'Sheet', 'Monthly data', 'Range',' E3:E831');
+uShortTerm = readmatrix('../data/data.xlsx', 'Sheet', 'Monthly data', 'Range',' E3:E831');
 
 % Adjust short-term unemployment level after January 1994 as in Shimer (2012, appendix A)
 uShortTerm(517:end) = 1.1 .* uShortTerm(517:end);

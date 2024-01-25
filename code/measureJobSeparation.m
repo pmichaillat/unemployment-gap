@@ -28,10 +28,10 @@ function lambda = measureJobSeparation(frequency)
 %% --- Get data ---
 
 % Read monthly unemployment level
-u = readmatrix('data.xlsx', 'Sheet', 'Monthly data', 'Range',' D3:D831');
+u = readmatrix('../data/data.xlsx', 'Sheet', 'Monthly data', 'Range',' D3:D831');
 
 % Read monthly labor-force size
-h = readmatrix('data.xlsx', 'Sheet', 'Monthly data', 'Range',' F3:F830');
+h = readmatrix('../data/data.xlsx', 'Sheet', 'Monthly data', 'Range',' F3:F830');
 
 % Get monthly job-finding rate
 f = measureJobFinding('monthly');

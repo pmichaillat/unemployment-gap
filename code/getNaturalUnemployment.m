@@ -28,7 +28,7 @@
 function [uNatural, timelineNatural] = getNaturalUnemployment()
 
 % Read NAIRU
-uNatural = readmatrix('data.xlsx', 'Sheet', 'Quarterly data', 'Range',' C3:C278')./100;
+uNatural = readmatrix('../data/data.xlsx', 'Sheet', 'Quarterly data', 'Range',' C3:C278')./100;
 
 % Produce timeline for 1951Q1--2019Q4
 timelineNatural = [1951:0.25:2019.75]';

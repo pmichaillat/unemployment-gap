@@ -28,7 +28,7 @@
 function [uTrend, timelineTrend] = getTrendUnemployment()
 
 % Read the trend of the unemployment rate
-uTrend = readmatrix('data.xlsx', 'Sheet', 'Quarterly data', 'Range',' E39:E273')./100;
+uTrend = readmatrix('../data/data.xlsx', 'Sheet', 'Quarterly data', 'Range',' E39:E273')./100;
 
 % Produce timeline for 1960Q1--2018Q3
 timelineTrend = [1960:0.25:2018.5]';

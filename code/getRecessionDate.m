@@ -33,8 +33,8 @@
 function [startRecession, endRecession, nRecession] = getRecessionDate()
 
 % Read month numbers for start and end of recessions
-startRecession = readmatrix('data.xlsx','Sheet','Recession dates','Range','C27:C36');
-endRecession = readmatrix('data.xlsx','Sheet','Recession dates','Range','D27:D36');
+startRecession = readmatrix('../data/data.xlsx','Sheet','Recession dates','Range','C27:C36');
+endRecession = readmatrix('../data/data.xlsx','Sheet','Recession dates','Range','D27:D36');
 nRecession  =  length(startRecession);
 
 % Translate month numbers (start in January 1800) to years, rounded to the current quarter

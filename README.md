@@ -8,11 +8,15 @@ The paper and its online appendix are available at https://pascalmichaillat.org/
 
 ## Data
 
-The data used as input to produce the results in the article are stored in the Excel file `data.xlsx`, which is placed in the folder `code`. 
+The data used to produce the results in the article are placed in the folder `data`. 
+
++ The data used as input by the code are stored in the Excel file `data.xlsx`.
++ The data from the 1997 National Employer Survey are placed in the subfolder `nes`. 
 
 ## Code
 
-The results in the paper are produced with MATLAB code. The code is placed in the folder `code`. There are two types of programs:
+The code used to produce the results in the paper is placed in the folder `code`. 
+The code is written in MATLAB. There are two types of programs:
 
 1. MATLAB scripts producing the figures in the article and online appendix
 2. MATLAB helper scripts and functions called at different places by the figure-producing scripts
@@ -47,7 +51,7 @@ The figures in the article and online appendix are produced by the following scr
 + `figureA8.m` - Produce panels A and B or figure A8 
 + `figureA9.m` - Produce figure A9
 
-The scripts produce each figure in a MATLAB window, save a copy of each figure in PDF format, and save a copy of the data plotted in each figure in an Excel file.
+The scripts produce each figure in a MATLAB window, save a copy of each figure in PDF, and save a copy of the data plotted in each figure in an Excel file.
 
 ### Helper scripts and functions
 

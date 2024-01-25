@@ -22,4 +22,4 @@
 function p = getLaborProductivity()
 
 % Read labor productivity
-p = readmatrix('data.xlsx', 'Sheet', 'Quarterly data', 'Range',' D3:D278');
+p = readmatrix('../data/data.xlsx', 'Sheet', 'Quarterly data', 'Range',' D3:D278');
