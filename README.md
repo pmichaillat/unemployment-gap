@@ -1,6 +1,6 @@
 # Beveridgean Unemployment Gap: Code and Data
 
-This repository contains the code and data accompanying the paper "Beveridgean Unemployment Gap", written by [Pascal Michaillat](https://pascalmichaillat.org) and [Emmanuel Saez](https://eml.berkeley.edu/~saez/), and published in the [Journal of Public Economics Plus](https://doi.org/10.1016/j.pubecp.2021.100009) in November 2021.
+This repository contains the code and data accompanying the paper "Beveridgean Unemployment Gap", written by [Pascal Michaillat](https://pascalmichaillat.org) and [Emmanuel Saez](https://eml.berkeley.edu/~saez/), and published in the [Journal of Public Economics Plus](https://doi.org/10.1016/j.pubecp.2021.100009) in December 2021.
 
 ## Paper webpage
 
