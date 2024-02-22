@@ -10,7 +10,7 @@ The paper and its online appendix are available at https://pascalmichaillat.org/
 
 The data used to produce the results in the article are placed in the folder `data`. The data used as input by the code are stored in the Excel file `data.xlsx`. The data from the 1997 National Employer Survey (NES) are placed in the subfolder `nes`:
 
-+ `data.csv` – Public-use CSV file of the 1997 NES; the US recruiting cost is computed from the answer to question 29
++ `nes.csv` – Public-use CSV file of the 1997 NES; the recruiting cost in the United States is computed from the answer to question 29
 + `questionaire.pdf` – Questionaire of the 1997 NES
 + `description.pdf` – Description of the NES data by Peter Cappelli (principal investigator of the 1997 NES)
 
