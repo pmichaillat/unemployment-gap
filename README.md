@@ -8,23 +8,22 @@ The paper and its online appendix are available at https://pascalmichaillat.org/
 
 ## Data
 
-The data used to produce the results in the article are placed in the folder `data`. The data used as input by the code are stored in the Excel file `data.xlsx`. The data from the 1997 National Employer Survey (NES) are placed in the subfolder `nes`:
+The data used to produce the results in the paper are placed in the folder `data`. The data used as input by the code are stored in the Excel file `data.xlsx`. The data from the 1997 National Employer Survey (NES) are placed in the subfolder `nes`:
 
-+ `nes.csv` – Public-use CSV file of the 1997 NES; the recruiting cost in the United States is computed from the answer to question 29
-+ `questionaire.pdf` – Questionaire of the 1997 NES
-+ `description.pdf` – Description of the NES data by Peter Cappelli (principal investigator of the 1997 NES)
++ `nes.csv` - Public-use CSV file of the 1997 NES; the recruiting cost in the United States is computed from the answer to question 29
++ `questionaire.pdf` - Questionaire of the 1997 NES
++ `description.pdf` - Description of the NES data by Peter Cappelli (principal investigator of the 1997 NES)
 
 ## Code
 
-The code used to produce the results in the paper is placed in the folder `code`. 
-The code is written in MATLAB. There are two types of programs:
+The results in the paper are obtained using MATLAB. The MATLAB code used to produce the results is placed in the folder `code`. There are two types of programs:
 
-1. MATLAB scripts producing the figures in the article and online appendix
+1. MATLAB scripts producing the figures in the paper and online appendix
 2. MATLAB helper scripts and functions called at different places by the figure-producing scripts
 
 ### Figure-producing scripts
 
-The figures in the article and online appendix are produced by the following scripts:
+The figures in the paper and online appendix are produced by the following scripts:
 
 + `figure1A.m` - Produce figure 1A
 + `figure1B.m` - Produce figure 1B
@@ -97,7 +96,7 @@ The figures produced by the code are stored in the folder `figures`, both as PDF
 
 ### PDF files
 
-The figures produced by the code are saved as PDF files and stored in the subfolder `pdf`. The PDF files correspond to the following figures in the article and online appendix:
+The figures produced by the code are saved as PDF files and stored in the subfolder `pdf`. The PDF files correspond to the following figures in the paper and online appendix:
 
 + `figure1A.pdf` - Figure 1A
 + `figure1B.pdf` - Figure 1B
@@ -136,7 +135,7 @@ The figures produced by the code are saved as PDF files and stored in the subfol
 
 ### Excel files
 
-The data underlying all the figures produced by the code are saved as Excel files and  stored in the subfolder `xlsx`. The Excel files contain data pertaining to the following figures in the article and online appendix:
+The data underlying all the figures produced by the code are saved as Excel files and  stored in the subfolder `xlsx`. The Excel files contain data pertaining to the following figures in the paper and online appendix:
 
 + `figure1A.xlsx` - Figure 1A
 + `figure1B.xlsx` - Figure 1B
@@ -172,11 +171,8 @@ The results were obtained on a Mac running macOS BigSur 11.6 with MATLAB R2021a 
 
 ## License
 
-The content of this repository is licensed under the terms of the MIT License.
+This repository is licensed under the [MIT License](LICENSE.md).
 
 ## Related code
 
-+ [Python version of this code](https://github.com/smxzehvb/unemployment-gap/tree/main/python) – Written by Sarah Charlton. All the paper's results are presented in Jupyter Notebooks.
-
-
-
++ [Python version of this code](https://github.com/smxzehvb/unemployment-gap/tree/main/python) - Written by Sarah Charlton. All the paper's results are presented in Jupyter Notebooks.
